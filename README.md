@@ -14,8 +14,8 @@ And then execute:
 
 After adding to your Gem file, run the installer
 
-$> rails generate audit_this:install
-$> bundle exec rake db:migrate
+    $ rails generate audit_this:install
+    $ bundle exec rake db:migrate
 
 
 ## Usage

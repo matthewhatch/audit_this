@@ -20,8 +20,8 @@ After adding to your Gem file, run the installer
 
 ## Usage
 
-audit_this.add_item('audit this text', 'source_name', current_user)
-audit_this.remove_item(id)
+    audit_this.add_item('audit this text', 'source_name', current_user)
+    audit_this.remove_item(id)
 
 ## Contributing
 

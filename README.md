@@ -1,6 +1,6 @@
 # AuditThis
 
-TODO: Write a gem description
+Send actions to an audit_logs table asynchronously, including log_text, log_source (model, controller), user
 
 ## Installation
 
@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+audit_this('audit this text', 'source_name', current_user)
 
 ## Contributing
 

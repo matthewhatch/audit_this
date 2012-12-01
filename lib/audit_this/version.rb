@@ -1,3 +1,3 @@
 module AuditThis
-  VERSION = "0.0.1_alpha"
+  VERSION = "0.0.1.alpha"
 end

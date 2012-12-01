@@ -27,3 +27,7 @@ audit_this('audit this text', 'source_name', current_user)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+##Licesnsing
+
+This Gem is created by Matt Hatch under the MIT License

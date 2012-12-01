@@ -12,13 +12,16 @@ And then execute:
 
     $ bundle install
 
-Or install it yourself as:
+After adding to your Gem file, run the installer
 
-    $ gem install audit_this
+$> rails generate audit_this:install
+$> bundle exec rake db:migrate
+
 
 ## Usage
 
-audit_this('audit this text', 'source_name', current_user)
+audit_this.add_item('audit this text', 'source_name', current_user)
+audit_this.remove_item(id)
 
 ## Contributing
 
